@@ -1,0 +1,11 @@
+folder.remove("BuildOutput", true);
+folder.create("BuildOutput");
+
+zip.compress("BuildOutput/XtraReports2012.2.zip", "source", "*.*", false, null);
+
+var innoOptions = 
+{
+  destinationFolder:path.resolve("BuildOutput")
+}
+
+inno.build(path.resolve("CreateInstaller.iss"), innoOptions);
