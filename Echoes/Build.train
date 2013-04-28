@@ -1,7 +1,8 @@
 folder.remove("BuildOutput", true);
 folder.create("BuildOutput");
 
-zip.compress("BuildOutput/XtraReports2012.2.zip", "source", "*.*", false, null);
+zip.compress("BuildOutput/XtraReports2012.1.zip", "Reports/XtraReports2012.1", "*.*", false, null);
+zip.compress("BuildOutput/XtraReports2012.2.zip", "Reports/XtraReports2012.2", "*.*", false, null);
 
 var innoOptions = 
 {
