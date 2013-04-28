@@ -8,7 +8,6 @@ AppName=Oxygene Template Installer
 AppPublisher=Team RO
 DefaultDirName={userdocs}
 DisableDirPage=yes
-;DefaultGroupName=Gold Standard Diagnostics\Thunderbolt EIA
 DisableProgramGroupPage=yes
 OutputBaseFilename=OxygeneTemplates
 Compression=lzma/ultra
