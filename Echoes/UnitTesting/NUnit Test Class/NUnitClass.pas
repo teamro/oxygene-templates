@@ -6,7 +6,7 @@ interface
 
 uses
   System,
-  System.Collection.Generic,
+  System.Collections.Generic,
   NUnit.Framework;
 
 type

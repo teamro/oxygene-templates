@@ -13,6 +13,6 @@
         <Assembly>nunit.framework</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true" SubType="Component">NUnitClass.pas</ProjectItem>
+    <ProjectItem ReplaceParameters="true">NUnitClass.pas</ProjectItem>
   </TemplateContent>
 </VSTemplate>
