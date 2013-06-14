@@ -1,0 +1,46 @@
+<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>XtraReport Class v13.1</Name>
+    <Description>A class for creating reports using the visual designer</Description>
+    <Icon>newreport.ico</Icon>
+    <ProjectType>Oxygene</ProjectType>
+    <SortOrder>40</SortOrder>
+    <DefaultName>XtraReport.pas</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Drawing</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>DevExpress.Data.v13.1</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>DevExpress.Utils.v13.1</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>DevExpress.Charts.v13.1.Core</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>DevExpress.XtraCharts.v13.1</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>DevExpress.XtraPivotGrid.v13.1</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>DevExpress.XtraReports.v13.1</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>DevExpress.XtraRichEdit.v13.1</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>DevExpress.RichEdit.v13.1.Core</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" SubType="Component">XtraReport.pas</ProjectItem>
+    <ProjectItem ReplaceParameters="true">XtraReport.Designer.pas</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

@@ -19,17 +19,16 @@ SetupIconFile=Oxygene.ico
 Name: "en"; MessagesFile: "compiler:Default.isl"
 
 [Components]
-Name: "vs2010"; Description: "Install into Visual Studio 2010"; Types: full;
-Name: "vs2010\reporting"; Description: "Templates for reporting"; Types: full
-Name: "vs2010\reporting\XtraReports2012_1"; Description: "XtraReports 2012.1"; Types: full
-Name: "vs2010\reporting\XtraReports2012_2"; Description: "XtraReports 2012.2"; Types: full
 Name: "vs2012"; Description: "Install into Visual Studio 2012"; Types: full;
 Name: "vs2012\Reporting"; Description: "Templates for reporting"; Types: full
 Name: "vs2012\Reporting\XtraReports2012_1"; Description: "XtraReports 2012.1"; Types: full
 Name: "vs2012\Reporting\XtraReports2012_2"; Description: "XtraReports 2012.2"; Types: full
+Name: "vs2012\Reporting\XtraReports2013_1"; Description: "XtraReports 2013.1"; Types: full
+Name: "vs2012\UnitTesting"; Description: "Templates for Unit Testing"; Types: full
+Name: "vs2012\UnitTesting\NUnit"; Description: "NUnit Test Class"; Types: full
 
 [Files]
-Source: "BuildOutput\XtraReports2012.1.zip"; DestDir: "{app}\Visual Studio 2010\Templates\ItemTemplates\Oxygene\Reporting\1033"; Components: vs2010\reporting\XtraReports2012_1
-Source: "BuildOutput\XtraReports2012.2.zip"; DestDir: "{app}\Visual Studio 2010\Templates\ItemTemplates\Oxygene\Reporting\1033"; Components: vs2010\reporting\XtraReports2012_2
 Source: "BuildOutput\XtraReports2012.1.zip"; DestDir: "{app}\Visual Studio 2012\Templates\ItemTemplates\Oxygene\Reporting\1033"; Components: vs2012\reporting\XtraReports2012_1
 Source: "BuildOutput\XtraReports2012.2.zip"; DestDir: "{app}\Visual Studio 2012\Templates\ItemTemplates\Oxygene\Reporting\1033"; Components: vs2012\reporting\XtraReports2012_2
+Source: "BuildOutput\XtraReports2013.1.zip"; DestDir: "{app}\Visual Studio 2012\Templates\ItemTemplates\Oxygene\Reporting\1033"; Components: vs2012\reporting\XtraReports2013_1
+Source: "BuildOutput\NUnit.zip"; DestDir: "{app}\Visual Studio 2012\Templates\ItemTemplates\Oxygene\Unit Testing\1033"; Components: vs2012\UnitTesting\NUnit

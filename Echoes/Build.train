@@ -3,6 +3,8 @@ folder.create("BuildOutput");
 
 zip.compress("BuildOutput/XtraReports2012.1.zip", "Reports/XtraReports2012.1", "*.*", false, null);
 zip.compress("BuildOutput/XtraReports2012.2.zip", "Reports/XtraReports2012.2", "*.*", false, null);
+zip.compress("BuildOutput/XtraReports2013.1.zip", "Reports/XtraReports2013.1", "*.*", false, null);
+zip.compress("BuildOutput/NUnit.zip", "UnitTesting/NUnit Test Class", "*.*", false, null);
 
 var innoOptions = 
 {
